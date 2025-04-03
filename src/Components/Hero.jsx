@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import { MobileContext } from '../App';
 import { HERO_CONTENT, HERO_CONTENT_2 } from "../constants"
-import profilePic from "../assets/profile.jpg"
+import profilePic from "../assets/profile1.jpg"
 import { motion } from "framer-motion"
 
 const container = (delay) => ({
