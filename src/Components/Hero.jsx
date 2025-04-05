@@ -33,7 +33,7 @@ const Hero = () => {
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true }}
-              className='bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-2xl md:text-4xl tracking-tight text-transparent text-center lg:text-left'
+              className='bg-gradient-to-r from-pink-100 via-slate-500 to-purple-300 bg-clip-text text-2xl md:text-4xl tracking-tight text-transparent text-center lg:text-left'
             >
               Software Developer | AI Enthusiast
             </motion.span>
