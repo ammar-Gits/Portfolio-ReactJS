@@ -51,7 +51,7 @@ const Hero = () => {
     <li>Applying <strong>NLP</strong> and <strong>Computer Vision</strong> techniques for real-world solutions.</li>
     <li>Experienced in building dynamic, scalable <strong>web apps</strong> using the <strong>MERN stack</strong>.</li>
     <li>Skilled in solving complex problems with <strong>data structures</strong>, <strong>algorithms</strong>, and <strong>MySQL</strong>.</li>
-    <li>Goal: Create efficient, intelligent, and impactful tech solutions.</li>
+    <li>Creating efficient, intelligent, and impactful tech solutions.</li>
   </ul>
 </motion.p>
 
