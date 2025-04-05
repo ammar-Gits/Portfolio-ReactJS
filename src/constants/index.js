@@ -3,7 +3,6 @@ import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.jpg";
 import project5 from "../assets/projects/project-5.png";
-import project6 from "../assets/projects/project-6.png";
 
 export const HERO_CONTENT = `I’m a passionate software developer specializing in Artificial Intelligence, with a focus on training AI models, optimizing ANNs, and applying NLP and Computer Vision for real-world solutions. Alongside AI, I build dynamic, scalable web apps using the MERN stack. I’m skilled in solving complex problems using data structures, algorithms, and MySQL. My goal is to create efficient, intelligent, and impactful tech solutions.`
 
@@ -70,13 +69,7 @@ export const PROJECTS = [
       "HotelEase is a desktop app built using C# .NET with MySQL backend. Designed to streamline hotel operations, the system enhances efficiency, reduces manual errors, and improves guest experiences. Developed following the Software Development Life Cycle (SDLC) in four iterations.",
     technologies: ["C#", ".NET", "MySQL", "Visual Studio"],
   },
-  {
-    title: "Portfolio Website",
-    image: project3,
-    description:
-      "A personal portfolio website using React and Tailwind CSS. The website showcases an introduction, education, experiences, projects, and contact information in a visually appealing and responsive design. It serves as a professional online presence to highlight skills and accomplishments.",
-    technologies: ["Javascript", "Vite", "ReactJS", "TailwindCSS"],
-  },
+
   {
     title: "Netflix Clone",
     image: project5,
@@ -84,13 +77,7 @@ export const PROJECTS = [
       "Developed a Netflix Clone using React.js and Tailwind CSS, replicating the platform’s UI with a responsive and modern design. The project features a sleek homepage, dynamic content sections, and an intuitive user interface. It showcases frontend development skills, focusing on design consistency and smooth user experience.",
     technologies: ["Javascript", "Vite", "ReactJS", "TailwindCSS"],
   },
-  {
-    title: "Currency Converter",
-    image: project6,
-    description:
-      "A simple and responsive Currency Converter web application built using HTML, CSS, and JavaScript, which fetches real-time exchange rates through a Currency Converter API. Users can select currencies, enter an amount, and get the converted value instantly.",
-    technologies: ["JavaScript", "FetchAPI", "HTML", "CSS"],
-  },
+
   {
     title: "Flight Prediction System",
     image: project4,
