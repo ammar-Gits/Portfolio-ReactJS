@@ -20,13 +20,13 @@ export const EDUCATION = [
     year: "2020 - 2022",
     role: "ICS (Intermediate in Computer Science)",
     company: "Fauji Foundation College",
-    technologies: ["Physics", "Computer Science", "Math"],
+    technologies: ["Physics", "Computer Science", "Math", "Grade: A"],
   },
   {
     year: "2018 - 2020",
     role: "Matriculation",
     company: "Radiant School",
-    technologies: ["Physics", "Chemistry", "Computer", "Math"],
+    technologies: ["Physics", "Chemistry", "Computer", "Math", "Grade: A+"],
   },
 ];
 
