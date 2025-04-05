@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import { MobileContext } from '../App';
-import { HERO_CONTENT, HERO_CONTENT_2 } from "../constants"
+import { HERO_CONTENT } from "../constants"
 import profilePic from "../assets/profilePic.jpg"
 import { motion } from "framer-motion"
 
@@ -45,15 +45,6 @@ const Hero = () => {
               className='my-2 text-base md:text-xl py-3 md:py-5 font-light tracking-tighter text-center lg:text-left'
             >
               {HERO_CONTENT}
-            </motion.p>
-            <motion.p
-              variants={container(1.5)}
-              initial="hidden"
-              whileInView="visible"
-              viewport={{ once: false }}
-              className='my-2 text-base md:text-xl py-3 md:py-5 font-light tracking-tighter text-center lg:text-left'
-            >
-              {HERO_CONTENT_2}
             </motion.p>
           </div>
         </div>
