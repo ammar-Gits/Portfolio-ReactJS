@@ -3,7 +3,7 @@ import { MobileContext } from '../App';
 import { RiReactjsLine } from 'react-icons/ri'
 import { TbBrandNextjs } from 'react-icons/tb'
 import { SiMongodb, SiPython, SiTailwindcss, SiRedux, SiMysql } from 'react-icons/si';
-import { DiRedis } from 'react-icons/di'
+import { SiPytorch, SiTensorflow } from 'react-icons/si';
 import { FaNodeJs } from 'react-icons/fa'
 import { motion } from "framer-motion"
 
@@ -104,6 +104,13 @@ const Skills = () => {
                             <SiPython className="text-7xl text-yellow-400" />
                         </motion.div>
                         <motion.div
+                            variants={iconVars(2)}
+                            initial="initial"
+                            animate="animate"
+                            className='rounded-2xl border-4 border-neutral-800 p-4'>
+                            <SiPytorch className="text-7xl text-red-500" />
+                        </motion.div>
+                        <motion.div
                             variants={iconVars(6)}
                             initial="initial"
                             animate="animate"
@@ -115,14 +122,7 @@ const Skills = () => {
                             initial="initial"
                             animate="animate"
                             className='rounded-2xl border-4 border-neutral-800 p-4'>
-                            <DiRedis className="text-7xl text-red-700" />
-                        </motion.div>
-                        <motion.div
-                            variants={iconVars(6)}
-                            initial="initial"
-                            animate="animate"
-                            className='rounded-2xl border-4 border-neutral-800 p-4'>
-                            <SiTailwindcss className="text-7xl text-blue-300" />
+                            <SiTensorflow className="text-7xl text-orange-300" />
                         </motion.div>
                         <motion.div
                             variants={iconVars(4)}
