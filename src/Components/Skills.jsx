@@ -43,8 +43,9 @@ const Skills = () => {
                             { Icon: TbBrandNextjs, color: "", duration: 2 },
                             { Icon: SiMongodb, color: "text-green-500", duration: 5 },
                             { Icon: SiPython, color: "text-yellow-400", duration: 2 },
+                            { Icon: SiTensorflow, color: "text-orange-300", duration: 6 },
                             { Icon: SiRedux, color: "text-purple-700", duration: 6 },
-                            { Icon: DiRedis, color: "text-red-700", duration: 6 },
+                            { Icon: SiPytorch, color: "text-red-500", duration: 6 },
                             { Icon: SiTailwindcss, color: "text-blue-300", duration: 6 },
                             { Icon: FaNodeJs, color: "text-green-500", duration: 4 },
                             { Icon: SiMysql, color: "text-cyan-500", duration: 2 }
