@@ -46,12 +46,7 @@ const Hero = () => {
 >
   
   <ul className="list-disc list-inside">
-    <li>Specializing in <strong>Artificial Intelligence (AI)</strong>.</li>
-    <li>Focus on <strong>training AI models</strong>, optimizing <strong>Artificial Neural Networks (ANNs).</strong></li>
-    <li>Applying <strong>NLP</strong> and <strong>Computer Vision</strong> techniques for real-world solutions.</li>
-    <li>Experienced in building dynamic, scalable <strong>web apps</strong> using the <strong>MERN stack</strong>.</li>
-    <li>Skilled in solving complex problems with <strong>data structures</strong>, <strong>algorithms</strong>, and <strong>MySQL</strong>.</li>
-    <li>Creating efficient, intelligent, and impactful tech solutions.</li>
+    <p>I'm currently pursuing a Bachelor's in Artificial Intelligence at FAST Islamabad, with a strong focus on training AI models and optimizing Artificial Neural Networks (ANNs). I apply NLP and Computer Vision techniques to develop real-world solutions. On the development side, I have hands-on experience building dynamic, scalable web applications using the MERN stack. Proficient in data structures, algorithms, and MySQL, I thrive on solving complex problems. My goal is to create intelligent, efficient, and impactful tech solutions that truly make a difference.</p>
   </ul>
 </motion.p>
 
