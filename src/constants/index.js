@@ -33,17 +33,10 @@ export const EDUCATION = [
 export const EXPERIENCES = [
   {
     year: "2025 - Present",
-    role: "AI/ML Engineer",
+    role: "AI/ML Intern",
     company: "DevelopersHub Corporation",
-    description: `Developed and deployed machine learning models for NLP tasks like chatbot systems, sentiment analysis, and fake news detection. I implemented text classification and clustering techniques, optimized model performance, and deployed solutions using Flask and Streamlit.`,
-    technologies: ["Python", "AI", "Machine Learning", "Model training"],
-  },
-  {
-    year: "2025 - Present",
-    role: "Machine Learning Intern",
-    company: "CodeAlpha",
-    description: `As machine learning intern, I am developing a Music Recommendation System that predicts song replays using machine learning and user listening history. Additionally, I am working on Image Recognition, applying AI to analyze digital images for tasks like face recognition and identity verification, showcasing its real-world applications.`,
-    technologies: ["Python", "Flask", "Machine Learning", "Image Processing"],
+    description: `Built and deployed AI chatbots for health queries, sentiment analysis, and fake news detection using NLP models like LSTM and Transformers. Worked with real-world datasets for classification and anomaly detection, and developed end-to-end ML pipelines using Flask, FastAPI, and Streamlit. Applied CNNs and LSTM/Prophet for image classification and time-series forecasting.`,
+    technologies: ["Python", "AI", "Machine Learning", "Natural language processing"],
   },
   {
     year: "2024 - Present",
@@ -69,7 +62,14 @@ export const PROJECTS = [
       "HotelEase is a desktop app built using C# .NET with MySQL backend. Designed to streamline hotel operations, the system enhances efficiency, reduces manual errors, and improves guest experiences. Developed following the Software Development Life Cycle (SDLC) in four iterations.",
     technologies: ["C#", ".NET", "MySQL", "Visual Studio"],
   },
-
+  {
+    title: "AI-Powered Text-to-Image System",
+    image: project2,
+    description:
+      "Developed a deep learning-based Image Generation System using Stable Diffusion (v1.5) and AUTOMATIC1111 Web UI, enabling high-quality text-to-image synthesis. Integrated a custom gRPC API for automated image generation with prompt validation and local file storage. Deployed the system using Docker with NVIDIA GPU support, tested via Postman, and optimized for performance under concurrent load. Used Python, Protobuf, and CUDA for scalable deployment.",
+    technologies: ["Image processing", "AI", "Deep learning", "gRPC", "Postman"],
+  },
+ 
   {
     title: "Netflix Clone",
     image: project5,
