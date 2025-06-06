@@ -3,7 +3,7 @@ import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.jpg";
 import project5 from "../assets/projects/project-5.png";
-import project6 from "../assets/projects/project6.png";
+import project6 from "../assets/projects/proj6.png";
 export const HERO_CONTENT = `I’m a passionate software developer specializing in Artificial Intelligence, with a focus on training AI models, optimizing ANNs, and applying NLP and Computer Vision for real-world solutions. Alongside AI, I build dynamic, scalable web apps using the MERN stack. I’m skilled in solving complex problems using data structures, algorithms, and MySQL. My goal is to create efficient, intelligent, and impactful tech solutions.`
 
 export const ABOUT_TEXT = `3rd year student at FAST NUCES with a passion for AI-driven solutions and full-stack development, I thrive in collaborative environments where innovation and creativity take center stage. I actively engage in hands-on projects, refining my skills in debugging, performance optimization, and real-world application development.
