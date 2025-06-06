@@ -50,7 +50,7 @@ export const EXPERIENCES = [
 export const PROJECTS = [
   {
     title: "AI-Powered Text-to-Image System",
-    image: project2,
+    image: project6,
     description:
       "Developed a deep learning-based Image Generation System using Stable Diffusion (v1.5) and AUTOMATIC1111 Web UI, enabling high-quality text-to-image synthesis. Integrated a custom gRPC API for automated image generation with prompt validation and local file storage. Deployed the system using Docker with NVIDIA GPU support, tested via Postman, and optimized for performance under concurrent load. Used Python, Protobuf, and CUDA for scalable deployment.",
     technologies: ["Image processing", "AI", "Deep learning", "gRPC", "Postman"],
