@@ -3,7 +3,7 @@ import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.jpg";
 import project5 from "../assets/projects/project-5.png";
-
+import project6 from "../assets/projects/project-6.png";
 export const HERO_CONTENT = `I’m a passionate software developer specializing in Artificial Intelligence, with a focus on training AI models, optimizing ANNs, and applying NLP and Computer Vision for real-world solutions. Alongside AI, I build dynamic, scalable web apps using the MERN stack. I’m skilled in solving complex problems using data structures, algorithms, and MySQL. My goal is to create efficient, intelligent, and impactful tech solutions.`
 
 export const ABOUT_TEXT = `3rd year student at FAST NUCES with a passion for AI-driven solutions and full-stack development, I thrive in collaborative environments where innovation and creativity take center stage. I actively engage in hands-on projects, refining my skills in debugging, performance optimization, and real-world application development.
@@ -32,7 +32,7 @@ export const EDUCATION = [
 
 export const EXPERIENCES = [
   {
-    year: "2025 - Present",
+    year: "March 2025 - May Present",
     role: "AI/ML Intern",
     company: "DevelopersHub Corporation",
     description: `Built and deployed AI chatbots for health queries, sentiment analysis, and fake news detection using NLP models like LSTM and Transformers. Worked with real-world datasets for classification and anomaly detection, and developed end-to-end ML pipelines using Flask, FastAPI, and Streamlit. Applied CNNs and LSTM/Prophet for image classification and time-series forecasting.`,
@@ -49,6 +49,13 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
+    title: "AI-Powered Text-to-Image System",
+    image: project2,
+    description:
+      "Developed a deep learning-based Image Generation System using Stable Diffusion (v1.5) and AUTOMATIC1111 Web UI, enabling high-quality text-to-image synthesis. Integrated a custom gRPC API for automated image generation with prompt validation and local file storage. Deployed the system using Docker with NVIDIA GPU support, tested via Postman, and optimized for performance under concurrent load. Used Python, Protobuf, and CUDA for scalable deployment.",
+    technologies: ["Image processing", "AI", "Deep learning", "gRPC", "Postman"],
+  },
+  {
     title: "Interactive Chatbot System",
     image: project1,
     description:
@@ -62,14 +69,6 @@ export const PROJECTS = [
       "HotelEase is a desktop app built using C# .NET with MySQL backend. Designed to streamline hotel operations, the system enhances efficiency, reduces manual errors, and improves guest experiences. Developed following the Software Development Life Cycle (SDLC) in four iterations.",
     technologies: ["C#", ".NET", "MySQL", "Visual Studio"],
   },
-  {
-    title: "AI-Powered Text-to-Image System",
-    image: project2,
-    description:
-      "Developed a deep learning-based Image Generation System using Stable Diffusion (v1.5) and AUTOMATIC1111 Web UI, enabling high-quality text-to-image synthesis. Integrated a custom gRPC API for automated image generation with prompt validation and local file storage. Deployed the system using Docker with NVIDIA GPU support, tested via Postman, and optimized for performance under concurrent load. Used Python, Protobuf, and CUDA for scalable deployment.",
-    technologies: ["Image processing", "AI", "Deep learning", "gRPC", "Postman"],
-  },
- 
   {
     title: "Netflix Clone",
     image: project5,
