@@ -37,16 +37,14 @@ const Hero = () => {
             >
               AI/ML Engineer | Backend Developer
             </motion.span>
-            <motion.p
+        <motion.p
   variants={container(1)}
   initial="hidden"
   whileInView="visible"
   viewport={{ once: true }}
   className='my-2 text-base md:text-xl py-3 md:py-5 font-light tracking-tighter text-center lg:text-left'
 >
-  
-  <ul className="list-disc list-inside">Hi, I’m Muhammad Ammar, a final-semester Bachelor’s student in Artificial Intelligence at FAST National University, with hands-on experience in machine learning, computer vision, and natural language processing.
-  </ul>
+  Hi, I’m Muhammad Ammar, a final-semester Bachelor’s student in Artificial Intelligence at FAST National University, with hands-on experience in machine learning, computer vision, and natural language processing.
 </motion.p>
 
           
@@ -72,5 +70,6 @@ const Hero = () => {
 }
 
 export default Hero
+
 
 
