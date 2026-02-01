@@ -46,7 +46,6 @@ const Hero = () => {
 >
   
   <ul className="list-disc list-inside">Hi, I’m Muhammad Ammar, a final-semester Bachelor’s student in Artificial Intelligence at FAST National University, with hands-on experience in machine learning, computer vision, and natural language processing.
-</p>
   </ul>
 </motion.p>
 
@@ -73,4 +72,5 @@ const Hero = () => {
 }
 
 export default Hero
+
 
