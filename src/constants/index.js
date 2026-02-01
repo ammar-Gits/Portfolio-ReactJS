@@ -6,9 +6,7 @@ import project5 from "../assets/projects/project-5.png";
 import project6 from "../assets/projects/proj6.png";
 export const HERO_CONTENT = `I’m a passionate software developer specializing in Artificial Intelligence, with a focus on training AI models, optimizing ANNs, and applying NLP and Computer Vision for real-world solutions. Alongside AI, I build dynamic, scalable web apps using the MERN stack. I’m skilled in solving complex problems using data structures, algorithms, and MySQL. My goal is to create efficient, intelligent, and impactful tech solutions.`
 
-export const ABOUT_TEXT = `3rd year student at FAST NUCES with a passion for AI-driven solutions and full-stack development, I thrive in collaborative environments where innovation and creativity take center stage. I actively engage in hands-on projects, refining my skills in debugging, performance optimization, and real-world application development.
-I am committed to continuous learning and staying updated with emerging trends in AI and software development. My goal is to leverage my knowledge and expertise to build impactful solutions that drive technological advancement and solve meaningful challenges.`;
-
+export const ABOUT_TEXT = `I’m proficient in Python and JavaScript and have worked extensively with transformer-based models, Hugging Face, LangChain, and LoRA/QLoRA fine-tuning, along with building scalable FastAPI backends. I also have strong knowledge of MLOps practices, including end-to-end ML pipelines, Git-based workflows, CI/CD automation, model versioning, and deploying machine learning models. I’m driven by curiosity and a problem-solving mindset, and I’m always eager to learn, adapt to new technologies, and grow as an AI engineer.`
 export const EDUCATION = [
   {
     year: "2022 - Present",
