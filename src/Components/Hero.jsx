@@ -35,7 +35,7 @@ const Hero = () => {
               viewport={{ once: true }}
               className='bg-gradient-to-r from-pink-100 via-slate-500 to-purple-300 bg-clip-text text-2xl md:text-4xl tracking-tight text-transparent text-center lg:text-left'
             >
-              Software Developer | AI Enthusiast
+              AI/ML Engineer | Backend Developer
             </motion.span>
             <motion.p
   variants={container(1)}
@@ -45,8 +45,8 @@ const Hero = () => {
   className='my-2 text-base md:text-xl py-3 md:py-5 font-light tracking-tighter text-center lg:text-left'
 >
   
-  <ul className="list-disc list-inside">
-    <p>I'm currently pursuing a Bachelor's in Artificial Intelligence at FAST Islamabad, with a strong focus on training AI models and optimizing Artificial Neural Networks (ANNs). I apply NLP and Computer Vision techniques to develop real-world solutions. On the development side, I have hands-on experience building dynamic, scalable web applications using the MERN stack. Proficient in data structures, algorithms, and MySQL, I thrive on solving complex problems. My goal is to create intelligent, efficient, and impactful tech solutions that truly make a difference.</p>
+  <ul className="list-disc list-inside">Hi, I’m Muhammad Ammar, a final-semester Bachelor’s student in Artificial Intelligence at FAST National University, with hands-on experience in machine learning, computer vision, and natural language processing.
+</p>
   </ul>
 </motion.p>
 
@@ -73,3 +73,4 @@ const Hero = () => {
 }
 
 export default Hero
+
