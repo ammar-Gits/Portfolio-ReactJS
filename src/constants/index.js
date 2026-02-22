@@ -6,7 +6,7 @@ import project5 from "../assets/projects/project-5.png";
 import project6 from "../assets/projects/proj6.png";
 export const HERO_CONTENT = `I’m a passionate software developer specializing in Artificial Intelligence, with a focus on training AI models, optimizing ANNs, and applying NLP and Computer Vision for real-world solutions. Alongside AI, I build dynamic, scalable web apps using the MERN stack. I’m skilled in solving complex problems using data structures, algorithms, and MySQL. My goal is to create efficient, intelligent, and impactful tech solutions.`
 
-export const ABOUT_TEXT = `I’m proficient in Python and JavaScript and have worked extensively with transformer-based models, Hugging Face, LangChain, and LoRA/QLoRA fine-tuning, along with building scalable FastAPI backends. I also have strong knowledge of MLOps practices, including end-to-end ML pipelines, Git-based workflows, CI/CD automation, model versioning, and deploying machine learning models. I’m driven by curiosity and a problem-solving mindset, and I’m always eager to learn, adapt to new technologies, and grow as an AI engineer.`
+export const ABOUT_TEXT = `I am passionate about designing intelligent systems that move beyond traditional automation into autonomous decision-making workflows. My work focuses on multi-agent AI architectures, model optimization, and real-world AI integrations that solve practical problems. With strong foundations in both AI and full-stack development, I enjoy building scalable systems from model training to deployment. I continuously explore emerging technologies to push the boundaries of agentic and applied AI.`
 export const EDUCATION = [
   {
     year: "2022 - Present",
