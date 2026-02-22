@@ -44,7 +44,7 @@ const Hero = () => {
   viewport={{ once: true }}
   className='my-2 text-base md:text-xl py-3 md:py-5 font-light tracking-tighter text-center lg:text-left'
 >
-  Hi, I’m Muhammad Ammar, a final-semester Bachelor’s student in Artificial Intelligence at FAST National University, with hands-on experience in machine learning, computer vision, and natural language processing.
+ Hi, I’m Muhammad Ammar, a final-semester BS Artificial Intelligence student specializing in AI-driven system design and real-world problem solving. I build intelligent multi-agent systems that reason, collaborate, and automate complex workflows. My work spans Machine Learning, NLP, and Generative AI with a focus on scalable, production-ready solutions. I combine AI expertise with full-stack development to deploy end-to-end intelligent applications.
 </motion.p>
 
           
@@ -70,6 +70,7 @@ const Hero = () => {
 }
 
 export default Hero
+
 
 
 
