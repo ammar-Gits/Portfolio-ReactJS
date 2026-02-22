@@ -3,6 +3,7 @@ import { MobileContext } from '../App';
 import { RiReactjsLine } from 'react-icons/ri'
 import { TbBrandNextjs } from 'react-icons/tb'
 import { SiMongodb, SiPython, SiTailwindcss, SiRedux, SiMysql } from 'react-icons/si';
+import CrewAIIcon from "./icons";
 import { SiPytorch, SiTensorflow } from 'react-icons/si';
 import { FaNodeJs } from 'react-icons/fa'
 import { motion } from "framer-motion"
@@ -46,6 +47,7 @@ const Skills = () => {
                             { Icon: SiTensorflow, color: "text-orange-300", duration: 6 },
                             { Icon: SiRedux, color: "text-purple-700", duration: 6 },
                             { Icon: SiPytorch, color: "text-red-500", duration: 6 },
+                            { Icon: CrewAIIcon, color: "", duration: 3 },
                             { Icon: SiTailwindcss, color: "text-blue-300", duration: 6 },
                             { Icon: FaNodeJs, color: "text-green-500", duration: 4 },
                             { Icon: SiMysql, color: "text-cyan-500", duration: 2 }
@@ -149,3 +151,4 @@ const Skills = () => {
 }
 
 export default Skills
+
