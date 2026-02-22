@@ -35,7 +35,7 @@ const Hero = () => {
               viewport={{ once: true }}
               className='bg-gradient-to-r from-pink-100 via-slate-500 to-purple-300 bg-clip-text text-2xl md:text-4xl tracking-tight text-transparent text-center lg:text-left'
             >
-              AI/ML Engineer | Backend Developer
+              Multi-Agent Systems • Automation • Full-Stack AI
             </motion.span>
         <motion.p
   variants={container(1)}
@@ -70,6 +70,7 @@ const Hero = () => {
 }
 
 export default Hero
+
 
 
 
